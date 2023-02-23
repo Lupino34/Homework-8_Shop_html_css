@@ -38,7 +38,37 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+  overflow: hidden;
+  /* width: 350px; */
+  margin: 0 auto;
+  /* background: #333; */
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
 }
+.promo .layer {
+  z-index: 1;
+  position: absolute;
+  top: calc(100% - 2px);
+  height: 100%;
+  width: 100%;
+  left: 0;
+  background: linear-gradient(to left, orange, tomato);
+  transition: 0.5s;
+}
+.promo .promo_heading  {
+  z-index: 2;
+  position: relative;
+
+}
+.promo:hover .layer  {
+  top: 0;
+  /* z-index: 2;
+  position: relative; */
+}
+
 .promo_img {
   max-width: 450px;
   max-height: 760px;
