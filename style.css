@@ -188,7 +188,7 @@ body {
 }
 
 .button_all_products {
-  margin-top: 32px;
+  /* margin-top: 32px;
   margin-bottom: 70px;
   padding: 15px 39px;
   border: 1px solid #ff6a6a;
@@ -196,7 +196,7 @@ body {
   color:rgb(0, 0, 0);
   box-shadow: 0 5px 0px rgb(2, 37, 33);
   transition-duration: 0.5s;
-  background:  #ff6a6a;
+  background:  #af80bb;
   margin-top: 39px;
   margin-bottom: 50px;
   transition-duration: 0,4s;
@@ -211,15 +211,228 @@ body {
   top: 0;
   position: relative;
   border: 0;
-  text-align: center;
-
+  text-align: center; */
+  text-decoration: none;
+  display: inline-block;
+  line-height: 150%;
+  padding: 15px 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 13px;
+  border-radius: 10px;
+  top: 0;
+  position: relative;
+  margin-top: 39px;
+  margin-bottom: 50px;
+  box-shadow: 0 5px 0px #cec6cb;
+  transition-duration: 0.5s;
+  /* border: 1px solid #ff6a6a; */
+  color: black;
+  border: none;
 }
-.button_all_products:hover
-{
+.button_all_products:hover {
   top: 2px;
-  box-shadow: 0 3px 0px rgb(0, 0, 0);
-  background-color: aqua;
- }
+  box-shadow: 0 3px 0px #cec9cc;
+  background-color: rgb(229, 215, 230);
+}
+.product_add_button {
+  /* background: none; */
+  width: 139px;
+  height: 44px;
+  border: 1px solid #ffffff;
+  position: absolute;
+  /* display: none; */
+  position: absolute;
+  top: 188px;
+  right: 110px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
+button {
+  appearance: auto;
+  writing-mode: horizontal-tb !important;
+  font-style: ;
+  font-variant-ligatures: ;
+  font-variant-caps: ;
+  font-variant-numeric: ;
+  font-variant-east-asian: ;
+  font-weight: ;
+  font-stretch: ;
+  font-size: ;
+  font-family: ;
+  text-rendering: auto;
+  color: buttontext;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  cursor: default;
+  box-sizing: border-box;
+  background-color: buttonface;
+  margin: 0em;
+  padding: 1px 6px;
+  border-width: 2px;
+  border-style: outset;
+  border-color: buttonborder;
+  border-image: initial;
+}
+footer {
+  max-width: 100wh;
+}
+.advantages {
+  background: #222224;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.advantage {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 360px;
+}
+.advantage_icon {
+  padding-bottom: 28px;
+}
+
+.advantage_heading {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fbfbfb;
+  padding-bottom: 16px;
+}
+
+.adventage_description {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #fbfbfb;
+}
+
+.subscription {
+  background-image: url("/img/photo\ subscribe.jpg");
+  background-size: cover;
+
+  padding-top: 97px;
+  padding-bottom: 126px;
+  display: flex;
+  justify-content: space-between;
+}
+.review {
+  display: flex;
+  gap: 30px;
+  max-width: 360px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.review_description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #222224;
+}
+
+.form_subscription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading-subscription {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 167.2%;
+  text-align: center;
+  color: #222224;
+  padding-bottom: 10px;
+}
+
+.subscription-subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 167.2%;
+  text-align: center;
+  color: #222224;
+  padding-bottom: 32px;
+}
+
+.form-input-button {
+  max-width: 300px;
+  display: flex;
+  flex-direction: row;
+}
+.form_subscription_input {
+  background: #e1e1e1;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+  width: 180px;
+  height: 50px;
+  border: none;
+  padding-left: 22px;
+}
+.form_subscription_button {
+  background: #e05c6e;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  width: 100px;
+  height: 50px;
+  border: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.footer_bottom {
+  background: #222224;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.copy {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fbfbfb;
+}
+.footer_icon_group {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 8px;
+}
 
 @media (max-width: 1024px) and (min-width: 768px) {
   body {
@@ -265,14 +478,30 @@ body {
   .products_cards {
     gap: 16px;
   }
+  .advantages {
+    padding-top: 48px;
+    padding-bottom: 64px;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
+
+.subscription {
+    padding-top: 64px;
+    padding-bottom: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
 }
 @media (max-width: 767px) and (min-width: 320px) {
   body {
     max-width: 100vw;
   }
   .center {
-    padding-left: calc(50% - 150px);
-    padding-right: calc(50% - 150px);
+    padding-left: calc(50% - 140px);
+    padding-right: calc(50% - 140px);
   }
   .no_mobile-2,
   .promo_img {
@@ -320,4 +549,34 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 16px;
   }
+  .advantages {
+    padding-bottom: 81px;
+    gap: 46px;
+    flex-direction: column;
+    align-items: center;
+}
+.advantage{
+    max-width: 290px;
+}
+.subscription {
+    padding-bottom: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
+.review {
+    max-width: 290px;
+          
+}
+.form-input-button {
+    max-width: 280px;
+    display: flex;
+    flex-direction: row;
+
+}
+.footer_bottom {
+    flex-direction: column;
+          gap: 40px; 
+}
 }
